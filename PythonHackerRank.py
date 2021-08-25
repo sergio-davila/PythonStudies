@@ -44,3 +44,12 @@ else:
     print(a + b)
     print(a - b)
     print(a * b)
+
+    # python full integer division
+    print(a//b)
+    # python float (decimal point) division
+    print(a/b)
+
+    # python for loop as well as exponent operator **
+    for i in range(0, n):
+        print(i**2)
