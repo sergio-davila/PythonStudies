@@ -15,7 +15,7 @@ else:
 if __name__ == '__main__':
     n = int(input().strip())
 if n % 2 != 0:
-    print ("Weird")
+    print("Weird")
 else:
     if n >= 2 and n <= 5:
         print("Not Weird")
@@ -23,3 +23,24 @@ else:
         print("Weird")
     elif n > 20:
         print("Not Weird")
+
+# third simplified solution
+if __name__ == '__main__':
+    n = int(input().strip())
+if n % 2 != 0:
+    print("Weird")
+else:
+    if 2 <= n <= 5:
+        print("Not Weird")
+    elif 6 <= n <= 20:
+        print("Weird")
+    elif n > 20:
+        print("Not Weird")
+
+    # python python arithmetic operators
+    a = int(input())
+    b = int(input())
+
+    print(a + b)
+    print(a - b)
+    print(a * b)
