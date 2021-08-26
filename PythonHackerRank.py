@@ -17,9 +17,9 @@ if __name__ == '__main__':
 if n % 2 != 0:
     print("Weird")
 else:
-    if n >= 2 and n <= 5:
+    if 2 <= n <= 5:
         print("Not Weird")
-    elif n >= 6 and n <= 20:
+    elif 6 <= n <= 20:
         print("Weird")
     elif n > 20:
         print("Not Weird")
@@ -67,6 +67,14 @@ def is_leap(year):
     else:
         return False
 
-    # Write your logic here
 
-    return leap
+# python print function
+finalString = ""
+for i in range(1, n + 1):
+    print(finalString + str(i), end="")
+
+
+A=numpy.array(input().split(),int)
+B=numpy.array(input().split(),int)
+print(numpy.inner(A,B))
+print(numpy.outer(A,B))
