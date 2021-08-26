@@ -78,3 +78,8 @@ A=numpy.array(input().split(),int)
 B=numpy.array(input().split(),int)
 print(numpy.inner(A,B))
 print(numpy.outer(A,B))
+
+
+a=list(map(float,input().split()))
+x=int(input())
+print (numpy.polyval(a, x))
