@@ -73,13 +73,14 @@ finalString = ""
 for i in range(1, n + 1):
     print(finalString + str(i), end="")
 
+A = numpy.array(input().split(), int)
+B = numpy.array(input().split(), int)
+print(numpy.inner(A, B))
+print(numpy.outer(A, B))
 
-A=numpy.array(input().split(),int)
-B=numpy.array(input().split(),int)
-print(numpy.inner(A,B))
-print(numpy.outer(A,B))
+a = list(map(float, input().split()))
+x = int(input())
+print(numpy.polyval(a, x))
 
 
-a=list(map(float,input().split()))
-x=int(input())
-print (numpy.polyval(a, x))
+print([[a, b, c] for a in range(0, x + 1) for b in range(0, y + 1) for c in range(0, z + 1) if a + b + c != n])
