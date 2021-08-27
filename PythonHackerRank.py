@@ -82,5 +82,8 @@ a = list(map(float, input().split()))
 x = int(input())
 print(numpy.polyval(a, x))
 
-
+# python list comprehension
 print([[a, b, c] for a in range(0, x + 1) for b in range(0, y + 1) for c in range(0, z + 1) if a + b + c != n])
+
+a = sorted(map(int, input().split()), reverse=True)
+print(a[a.count(a[0])])
